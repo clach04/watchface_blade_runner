@@ -12,4 +12,7 @@ This uses a font (rather than bitmap) for display and has a number of other feat
 
 However the time display is significantly smaller due to limitations with the Pebble SDK/firmware (see https://forums.pebble.com/t/what-is-maximum-font-size-that-i-can-display-on-pebble/2822/10 for details).
 
-This was built using https://github.com/clach04/watchface_framework/
+This was built using:
+  * Kemosabe's Fonts - Blade Runner. Downloaded from http://www.urbanfonts.com/fonts/Blade_Runner.htm
+  * icon extacted from Blade Runner Movie Font by Phil Steinschneider, from http://www.dafont.com/blade-runner.font
+  * https://github.com/clach04/watchface_framework/
