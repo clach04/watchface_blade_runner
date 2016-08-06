@@ -4,12 +4,12 @@
         "pebble-clay": "^1.0.1"
     },
     "keywords": [],
-    "name": "fill-me-in",
+    "name": "blade-runner-small-font",
     "pebble": {
         "capabilities": [
             "configurable"
         ],
-        "displayName": "FILL ME IN!",
+        "displayName": "Blade Runner Small Font",
         "enableMultiJS": true,
         "messageKeys": [
             "TIME_COLOR",
@@ -19,7 +19,22 @@
         ],
         "projectType": "native",
         "resources": {
-            "media": []
+            "media": [
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/BLADRMF_.TTF",
+                    "name": "FONT_TIME_60",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/decker_28x28.png",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
         },
         "sdkVersion": "3",
         "targetPlatforms": [
@@ -27,7 +42,7 @@
             "basalt",
             "chalk"
         ],
-        "uuid": "33a003e9-91ec-40fe-b652-b41248212f74",
+        "uuid": "7ca03801-8daf-4797-a258-9f14ad40fe32",
         "watchapp": {
             "watchface": true
         }

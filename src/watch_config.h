@@ -2,13 +2,19 @@
 
 #define USE_GENERIC_MAIN
 #undef FONT_NAME
+//#define FONT_NAME RESOURCE_ID_FONT_TIME_80
+// I think 80 is the correct size for Aplite/Basalt but this is not supported by SDK
+#define FONT_NAME RESOURCE_ID_FONT_TIME_60  // works but a little small
+//#define FONT_NAME RESOURCE_ID_FONT_TIME_65  /// does NOT work
+//#define FONT_NAME RESOURCE_ID_FONT_TIME_70  // does NOT work NOTE 08:17 minutes were OK (not hours)
+
 #undef FONT_SYSTEM_NAME  /* the default font system will be used */
 #undef DEBUG_TIME
 
-#if defined(PBL_HEALTH)
-    #define USE_HEALTH
-    //#define UPDATE_HEALTH_ON_ACTIVITY  /* If not set, only updates step count display once per minute */
-#endif /* PBL_HEALTH */
+#define TIME_FMT_STR_24H "%H %M"
+#define TIME_FMT_STR_12H "%I %M"  // produces leading zero for hour and minute
+//#define TIME_FMT_STR_12H "%l %M"  // no leading zero for hour
+#define MAX_TIME_STR "00 00"
 
 #define DRAW_BATTERY
 #define DRAW_SMALL_BATTERY
@@ -30,7 +36,7 @@
     #endif /* DRAW_BATTERY */
 
 #else /* PBL_RECT 144x168*/
-    #define CLOCK_POS GRect(0, 52, 144, 168) /* probably taller than really needed */
+    #define CLOCK_POS GRect(0, 0, 144, 168) /* probably taller than really needed */
     #define HEALTH_POS GRect(0, 40, 144, 168)
     #define BT_POS GRect(0, 120, 144, 168) /* probably taller than really needed */
     #define DATE_POS GRect(0, 140, 144, 168) /* probably taller than really needed */
