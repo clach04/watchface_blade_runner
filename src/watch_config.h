@@ -11,10 +11,10 @@
 #undef FONT_SYSTEM_NAME  /* the default font system will be used */
 #undef DEBUG_TIME
 
-#define TIME_FMT_STR_24H "%H %M"
-#define TIME_FMT_STR_12H "%I %M"  // produces leading zero for hour and minute
-//#define TIME_FMT_STR_12H "%l %M"  // no leading zero for hour
-#define MAX_TIME_STR "00 00"
+#define TIME_FMT_STR_24H "%H\n%M"
+#define TIME_FMT_STR_12H "%I\n%M"  // produces leading zero for hour and minute
+//#define TIME_FMT_STR_12H "%l\n%M"  // no leading zero for hour
+#define MAX_TIME_STR "00\n00"
 
 #define DRAW_BATTERY
 #define DRAW_SMALL_BATTERY

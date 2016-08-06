@@ -21,18 +21,18 @@
         "resources": {
             "media": [
                 {
-                    "characterRegex": "[0-9]",
-                    "file": "fonts/BLADRMF_.TTF",
-                    "name": "FONT_TIME_60",
-                    "targetPlatforms": null,
-                    "type": "font"
-                },
-                {
                     "file": "images/decker_28x28.png",
                     "menuIcon": true,
                     "name": "ICON",
                     "targetPlatforms": null,
                     "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/BLADRMF_.TTF",
+                    "name": "FONT_TIME_60",
+                    "targetPlatforms": null,
+                    "type": "font"
                 }
             ]
         },
