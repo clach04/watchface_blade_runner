@@ -14,5 +14,5 @@ However the time display is significantly smaller due to limitations with the Pe
 
 This was built using:
   * Kemosabe's Fonts - Blade Runner. Downloaded from http://www.urbanfonts.com/fonts/Blade_Runner.htm
-  * icon extacted from Blade Runner Movie Font by Phil Steinschneider, from http://www.dafont.com/blade-runner.font
+  * icon extacted from Blade Runner Movie Font by Phil Steinschneider, from https://www.dafont.com/blade-runner-movie-font.font
   * https://github.com/clach04/watchface_framework/
