@@ -53,7 +53,9 @@ jobs:
         with:
           ref: ${{ github.event.inputs.git-ref }}
       - uses: actions/setup-node@v2
-
+      - name: apt-getsudo
+        run: apt-get update; apt-get -qq install -y sudo
+        
       - name: apt-get
         run: apt-get update; sudo apt-get -qq install -y wget python-pip python2.7-dev libsdl1.2debian libfdt1 libpixman-1-0 nodejs npm libfreetype6 libx11-6 rlwrap
       - name: virtualenv
