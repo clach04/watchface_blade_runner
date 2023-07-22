@@ -21,7 +21,7 @@
         "resources": {
             "media": [
                 {
-                    "file": "images/decker_28x28.png",
+                    "file": "images/decker_25x25.png",
                     "menuIcon": true,
                     "name": "ICON",
                     "targetPlatforms": null,
