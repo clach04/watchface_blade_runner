@@ -1,7 +1,7 @@
 Watchface Blade Runner
 ======================
 
-Influenced by JanSolo's Blade Runner Big Font, https://apps.getpebble.com/en_US/application/54c2c12af3cb6c7fb1000071?dev_settings=true&native=false which is a Big Time https://github.com/pebble-examples/big-time implemention with a Blade Runner inspired font.
+Influenced by JanSolo's Blade Runner Big Font, https://apps.rebble.io/en_US/application/54c2c12af3cb6c7fb1000071?dev_settings=true&native=false which is a Big Time https://github.com/pebble-examples/big-time implemention with a Blade Runner inspired font.
 
 This uses a font (rather than bitmap) for display and has a number of other features, including:
   * icon
