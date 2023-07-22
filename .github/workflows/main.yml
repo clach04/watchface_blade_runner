@@ -33,6 +33,13 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: whichpy
+        run: which python
+      - name: whichpy2
+        run: which python2
+      - name: whichpy3
+        run: which python3
+        
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       # from https://levelup.gitconnected.com/how-to-manually-trigger-a-github-actions-workflow-4712542f1960
       - name: Clone Repository (Latest)
