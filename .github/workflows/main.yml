@@ -25,7 +25,9 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-20.04
 
-    container: coatldev/six:latest
+    container:
+      image: python:2.7.18-buster
+
     
 
 
